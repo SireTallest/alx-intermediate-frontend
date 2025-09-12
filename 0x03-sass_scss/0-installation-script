@@ -1,0 +1,2 @@
+The sass was installed in the working directory of the project using npm install sass -v 3.7.4 command. 
+I created a folder with the instructed name and created the file I want to work inside, ending with .scss to get the file ready for sass input. 
