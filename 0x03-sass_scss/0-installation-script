@@ -1,2 +1,10 @@
-The sass was installed in the working directory of the project using npm install sass -v 3.7.4 command. 
-I created a folder with the instructed name and created the file I want to work inside, ending with .scss to get the file ready for sass input. 
+## Install SaSS - Syntactically Awesome Style Sheets created by Natalie Weizenbaum and designed by Hampton Catlin
+
+1. For those who do not have an npm, install using the following link:
+`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash`
+
+#### Since I already had npm installed (node version 20.16), I moved to the nex step which is to :
+2. type `exit` on my terminal then press enter
+
+3. Install Sass by using this command once I had node installed
+`npm install sass -v 3.7.4`
