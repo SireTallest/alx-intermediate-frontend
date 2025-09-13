@@ -1,8 +1,14 @@
-body{
-    margin-left: 10px;
-    margin-right: 10px;
+$body-margin: 10px;
+$div-margin: 15px;
+@mixin apply-margins($margin-left-right) {
+  margin-right: $margin-left-right;
+  margin-left: $margin-left-right;
 }
-div{
-    margin-left: 15px;
-    margin-right: 15px;
+
+body {
+    @include apply-margins($body-margin);
+}
+
+div {
+    @include apply-margins($div-margin);
 }
