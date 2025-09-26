@@ -1,0 +1,50 @@
+# ✅ Steps I Took to Install Sass
+
+1. **I opened my terminal**
+   Since I’m on Linux, I used the default **Terminal**. (On Windows, I would have used Command Prompt or PowerShell).
+
+---
+
+2. **I installed Sass globally** so I can use it in any project:
+
+   ```bash
+   npm install -g sass
+   ```
+
+---
+
+3. **I confirmed the installation** by checking the version:
+
+   ```bash
+   sass --version
+   ```
+
+   The terminal displayed a version number like:
+
+   ```
+   1.77.6 compiled with dart2js
+   ```
+
+   That confirmed Sass was successfully installed on my system.
+
+---
+
+4. **(Optional step I could take in future projects):**
+   If I only want Sass installed inside one project folder, I would run:
+
+   ```bash
+   npm install sass --save-dev
+   ```
+
+   and then check it with:
+
+   ```bash
+   npx sass --version
+   ```
+
+---
+
+⚠️ **Note to Myself:**
+
+* `sass` is the official and updated package (Dart Sass).
+* The old `node-sass` package is outdated and should only be used if I’m working on an old codebase.

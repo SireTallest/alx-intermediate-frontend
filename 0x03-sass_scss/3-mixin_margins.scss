@@ -1,0 +1,14 @@
+// Step 1: Define a mixin that accepts one argument
+@mixin set-margins($value) {
+  margin-left: $value;
+  margin-right: $value;
+}
+
+// Step 2: Use the mixin in selectors
+body {
+  @include set-margins(10px);
+}
+
+div {
+  @include set-margins(15px);
+}
